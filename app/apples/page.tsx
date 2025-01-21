@@ -12,8 +12,8 @@ export default function Apples() {
     <section>
       <h1 className="mb-8 text-2xl font-medium tracking-tight">Apples</h1>
 
-      <div className="space-y-6">
-        <p>Here is a nice new page all about apples. Apples are a bit dull, but Mary likes them. I have decided to dedicate this page to Mary. It is a very good page. It has links to wikipedia, too. </p>
+      <div className="prose prose-neutral dark:prose-invert">
+        <p>Here is a nice new page all about apples. For myself, I think apples are a bit dull, but Mary likes them. I have decided to dedicate this page to Mary. It is a very good page. It has links to Wikipedia, too. Probably Mary will like that. Well, to be honest, she might not. You never can tell, really. Let's start with a list of our favourite apples...</p>
       </div>
       
       <div className="space-y-6">
