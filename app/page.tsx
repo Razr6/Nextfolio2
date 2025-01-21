@@ -17,7 +17,7 @@ export default function Page() {
       </a>
 
       <h1 className="mb-8 text-2xl font-medium tracking-tight">
-        Portfolio, made simple!
+        Portfolio, fixed!
       </h1>
 
       <div className="prose prose-neutral dark:prose-invert">
@@ -26,34 +26,23 @@ export default function Page() {
           Vercel, and Tailwind CSS for optimal performance.
         </p>
         <p>
-          Nextfolio includes all the essentials for a stunning portfolio: SEO,
+          Nextfolio2 includes all the essentials for a stunning portfolio: SEO,
           MDX support, RSS, Atom, & JSON feeds, analytics, tweet & YouTube
-          embeds, KaTeX integration, and{" "}
+          embeds, KaTeX integration, and more. See original Github repo by 1msirius at: {" "}
           <a
             target="_blank"
-            href="https://github.com/1msirius/Nextfolio?tab=readme-ov-file#features"
+            href="https://github.com/1msirius/Nextfolio"
           >
-            more
-          </a>
-          .
+            https://github.com/1msirius/Nextfolio
+          </a>{" "}
+          for the starting point. This here is cloned from a fork by sumanpaikdev, that fixed the hydration error. 
         </p>
         <p>
-          Nextfolio is{" "}
+          Nextfolio2 is{" "}
           <a href={socialLinks.github} target="_blank">
             open-source
           </a>{" "}
           and fully customizable, making it easy to add more features.
-        </p>
-        <p>
-          <a
-            href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F1msirius%2FNextfolio"
-            target="_blank"
-          >
-            Deploy
-          </a>{" "}
-          your Nextfolio site with Vercel in minutes and follow the set up
-          instructions in the{" "}
-          <a href="/blog/getting-started">Getting Started</a> post.
         </p>
         <p>
           Built and maintained by{" "}

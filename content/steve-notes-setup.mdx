@@ -1,0 +1,32 @@
+---
+title: "Steve Notes on Setup"
+publishedAt: "2025-01-14"
+summary: "Test entry."
+tags: "Configuration, Web development"
+---
+
+### 1 : Initial setup
+
+First, read step 4. Ok. So. Bearing that in mind, here is the start, from scratch: Go to Vercel, do addNew/Project, selectTemplate and search for portfolios, this is at: [https://vercel.com/templates/next.js/nextfolio-a-simple-next-js-portfolio](https://vercel.com/templates/next.js/nextfolio-a-simple-next-js-portfolio) - hit the deploy button.
+
+About a minute later it should be built and deployed on Vercel. 
+Give it a subdomain under razr6, so like say nextfolio.razr6.net.
+At Github, look in the files, find the content dir, add a new mdx file - just using Github - and commit the changes. 
+
+Voila. New page. There is a time delay though, note. Updates take maybe a minute to appear. 
+
+### 2 : Local files
+
+To set files up locally, to get to work, you clone the repository. 
+
+From VS Code do Command Palette /Git:Clone /Clone from GitHub - then select the repo from the available list. Once that's done, you can start editing the local mdx files and whenever you save, VSCode will offer commit and synch. That in turn updates the live site on Vercel, after a slight delay.
+
+### 3 : Local dev server
+
+Do [pnpm install] in the terminal window (the readme.md file says use pnpm) and watch it do about 90 seconds of install. Then you can do [pnpm dev] and start a local server on localhost:3000.
+
+Sadly, this produces a very annoying hydration error, when you run the dev server on http://localhost:3000/ (but not on the live server).
+
+### 4 : Fixing that hydration warning error
+
+Scrap everything you've just done, and clone it all from the fork by sumanpaikdev, that will fix the hydration error. Turns out the main repo had a bug in the theme-switch.tsx file. Well, It's good to know it wasn't me that fucked it up. I guess I am at least learning about Github, forks, etc, too. Which is nice. 
